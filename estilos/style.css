@@ -16,7 +16,6 @@ body {
     background: url('../imagens/fundo-madeira.jpg')no-repeat top center;
     background-size: cover; /*para o fundo ocupar a tela inteira*/
     background-attachment: fixed; /*para não ter rolagem*/
-
 }
 
 main {
@@ -34,4 +33,12 @@ section#telefone {
     height: 627px; /*pela propriedade da imagem da para descobrir o height*/
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 266px;
+    height: 470px;
 }
